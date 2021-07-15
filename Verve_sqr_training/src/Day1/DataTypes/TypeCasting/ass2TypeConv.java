@@ -1,4 +1,4 @@
-package Day1;
+package Day1.DataTypes.TypeCasting;
 /*To perform operation on type convertions
  * 
  */

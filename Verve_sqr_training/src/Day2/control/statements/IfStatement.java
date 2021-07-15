@@ -2,27 +2,27 @@ package Day2.control.statements;
 
 /* To check if the book is present in library or not*/
 
-public class If_statement_eg
+public class IfStatement
 {
 	static int libId;
 	//To check whether book is present in library or not
-	public void getlibrary_book_present(String strBookName)
+	public void getLibraryBook(String strBookName)
 	{
 		strBookName = strBookName;
 		if(strBookName.equals("Gulliver's Travel"))
 		{
 			System.out.println("The book is present in library:"+strBookName);
-			this.getlibrary_row_check(50);
+			this.getLibraryRowCheck(50);
 		}
 		else if(strBookName.equals("Harry Potter"))
 		{
 			System.out.println("The book is present which is: "+strBookName);
-			this.getlibrary_row_check(167);
+			this.getLibraryRowCheck(167);
 		}
 		else if(strBookName.equals("Anne Frank"))
 		{
 			System.out.println("The book is present which is:"+strBookName);
-			this.getlibrary_row_check(500);
+			this.getLibraryRowCheck(500);
 		}
 		else
 		{
@@ -32,7 +32,7 @@ public class If_statement_eg
 	
 	
 	//To check the book is in which row
-	public void getlibrary_row_check(int libId)
+	public void getLibraryRowCheck(int libId)
 	{
 		System.out.println("To check whether the book is in the 3 rows ?:");
 		if(libId <= 100)

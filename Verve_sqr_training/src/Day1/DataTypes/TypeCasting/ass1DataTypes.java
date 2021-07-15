@@ -1,4 +1,4 @@
-package Day1;
+package Day1.DataTypes.TypeCasting;
 /*To perform operations on different data types
  * Byte-1 byte memory-range:-127 to 127
  * Short-          -range:-32768 to 32767
