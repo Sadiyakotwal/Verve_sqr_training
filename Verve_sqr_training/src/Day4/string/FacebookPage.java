@@ -21,6 +21,8 @@ public class FacebookPage
 	int randYear = rand.nextInt(2021);
 	String strGender[] = {"Male","Female","Custom"};
 	
+	
+	
 	public void linkClickFB()
 	{
 		System.out.println("https://en-gb.facebook.com");
