@@ -42,6 +42,7 @@ public class FacebookPage
 		System.out.println("Password: "+strPassword[index4]);
 		System.out.println("Date: "+randDay+"\t"+"Month: "+strMonth[index5]+"\t"+"Year:"+randYear);
 		System.out.println("Gender: \n"+strGender[1]);
+		
 
 	}
 	
