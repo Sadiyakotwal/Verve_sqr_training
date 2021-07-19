@@ -106,15 +106,7 @@ public class JavaControlStatement
 	
 	public void checkForEachLoop()
 	{
-		/*String strColourAr[] = new String[7];
-		System.out.println("Enter rainbow colours");
-		Scanner sc = new Scanner(System.in);
-		String strColour= sc.nextLine();
-		 
-		for(int i=0;i<strColourAr.length;i++)
-		{
-			strColourAr[i] = strColour;
-		}*/
+		
 		String strColourAr[] = {"Violet","Indigo","Blue","Green","Yellow","Orange","Red"};
 		System.out.println("The rainbow colours are: ");
 		for(String str:strColourAr)

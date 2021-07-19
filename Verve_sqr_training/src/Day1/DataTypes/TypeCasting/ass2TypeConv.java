@@ -106,6 +106,10 @@ public class ass2TypeConv
 		double string_to_double = Double.parseDouble(s1);
 		System.out.println("String to douuble: "+string_to_double);	
 		
+		//String to long
+		long string_to_long = Long.parseLong(s1);
+		System.out.println("String to long: "+string_to_long);	
+		
 		
 	}
 	

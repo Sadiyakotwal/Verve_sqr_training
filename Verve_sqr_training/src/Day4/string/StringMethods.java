@@ -92,9 +92,9 @@ public class StringMethods
 	
 	
 	//Split Methods
-	String strBrandsHeadset3 = "Sonny@Phillips@SkullCandy@Beats@Boat@JBL";
+	String strBrandsHeadset3 = " Sonny@ Phillips@SkullCandy@Beats@Boat@JBL  ";
 	
-	public void splitMethod()
+	public void splitTrimMethod()
 	{
 		//Split method
 		System.out.println("By Using Split Method ");
@@ -106,6 +106,10 @@ public class StringMethods
 		{
 			System.out.println(s);
 		}
+		
+		//Trim method
+		System.out.println("By Using Trim Method ");
+		System.out.println("-----------------------");
 			
 		
 	}
@@ -119,7 +123,7 @@ public class StringMethods
 		//Character methods
 		objStringMethods.charAllMethods();
 		//Split MEthod
-		objStringMethods.splitMethod();
+		objStringMethods.splitTrimMethod();
 	}
 
 }

@@ -35,26 +35,88 @@ public class ass1DataTypes
 	String str = "Java";
 	
 	
+	//To perform addition 
+	public void addMethod()
+	{
+		System.out.println("Addition of all Types ");
+		System.out.println("-------------------------------");
+		System.out.println("Addition of Integer and Short :\n"+(a+s1));
+		System.out.println("Addition of Integer and Float :\n"+(a+f1));
+		System.out.println("Addition of Integer and Float :\n"+(a+f2));
+		System.out.println("Addition of Integer and double :\n"+(a+d1));
+		System.out.println("Addition of Integer and Double :\n"+(a+d2));
+		System.out.println("Addition of Integer and long :\n"+(a+l1));
+		System.out.println("Addition of Integer and long :\n"+(a+l2));
+		System.out.println("Addition of Integer and char :\n"+(a+c));
+		System.out.println("Addition of Integer and Byte :\n"+(a+b1)+"\n");
+	}
+	
+	//To perform addition 
+	public void subtractionMethod()
+	{
+		System.out.println("Substraction of all Types ");
+		System.out.println("-------------------------------");
+		System.out.println("Subtraction of Integer and Short :\n"+(a-s1));
+		System.out.println("Subtraction of Integer and Float :\n"+(a-f1));
+		System.out.println("Subtraction of Integer and Float :\n"+(a-f1));
+		System.out.println("Subtraction of Integer and Double :\n"+(a-d1));
+		System.out.println("Subtraction of Integer and Double :\n"+(a-d1));
+		System.out.println("Subtraction of Integer and Long :\n"+(a-l1));
+		System.out.println("Subtraction of Integer and Long :\n"+(a-l2));
+		System.out.println("Subtraction of Integer and Char :\n"+(a-c));
+		System.out.println("Subtraction of Integer and Byte :\n"+(a-b1)+"\n");
+			
+	}
+	
+	//To perform Multiplication
+	public void multiplicationMethod()
+	{
+		System.out.println("Multiplication of all Types ");
+		System.out.println("-------------------------------");
+		System.out.println("Multiplication of Integer and Short :\n"+(a*s1));
+		System.out.println("Multiplication of Integer and Float :\n"+(a*f1));
+		System.out.println("Multiplication of Integer and Float :\n"+(a*f1));
+		System.out.println("Multiplication of Integer and Double :\n"+(a*d1));
+		System.out.println("Multiplication of Integer and Double :\n"+(a*d1));
+		System.out.println("Multiplication of Integer and Long :\n"+(a*l1));
+		System.out.println("Multiplication of Integer and Long :\n"+(a*l2));
+		System.out.println("Multiplication of Integer and Char :\n"+(a*c));
+		System.out.println("Multiplication of Integer and Byte :\n"+(a*b1)+"\n");
+			
+	}
+	
+	//To perform Division
+		public void divisionMethod()
+		{
+			System.out.println("Division of all Types ");
+			System.out.println("-------------------------------");
+			System.out.println("Division of Integer and Short :\n"+(a/s1));
+			System.out.println("Division of Integer and Float :\n"+(a/f1));
+			System.out.println("Division of Integer and Float :\n"+(a/f1));
+			System.out.println("Division of Integer and Double :\n"+(a/d1));
+			System.out.println("Division of Integer and Double :\n"+(a/d1));
+			System.out.println("Division of Integer and Long :\n"+(a/l1));
+			System.out.println("Division of Integer and Long :\n"+(a/l2));
+			System.out.println("Division of Integer and Char :\n"+(a/c));
+			System.out.println("Division of Integer and Byte :\n"+(a/b1)+"\n");
+				
+		}
+		
 
 	public static void main(String[] args) 
 	{
 
 		ass1DataTypes  ass1DataTypes = new ass1DataTypes();
+		//Addition of all data types
+		ass1DataTypes.addMethod();
+		//Substracion of all data types
+		ass1DataTypes.subtractionMethod();
+		//Multiplication of all data types
+		ass1DataTypes.multiplicationMethod();
+		//Division of all data types
+		ass1DataTypes.divisionMethod();
+
 		
-		System.out.println("Integer value is:"+ass1DataTypes.a);
-		System.out.println("Short  value is:"+ass1DataTypes.s1);
-		System.out.println("Float value is:"+ass1DataTypes.f1);
-		System.out.println("Float value is:"+ass1DataTypes.f2);
-		System.out.println("Long value is:"+ass1DataTypes.l1);
-		System.out.println("Long value is:"+ass1DataTypes.l2);
-		System.out.println("Character is:"+ass1DataTypes.c);
-		System.out.println("Character is:"+ass1DataTypes.c1);
-		System.out.println("Double value is:"+ass1DataTypes.d1);
-		System.out.println("Double value is:"+ass1DataTypes.d2);
-		System.out.println("Byte value is:"+ass1DataTypes.b1);
-		System.out.println("String is:"+ass1DataTypes.str);
-
-
 	}
 
 }
