@@ -11,6 +11,7 @@ public class PersonalDataConv
 	{
 		String s1= "200";
 		String s2 ="Asus";
+		String s3 ="39893987398";
 		System.out.println("String to other Types ");
 		System.out.println("----------------------------");
 		//String to integer
@@ -22,6 +23,10 @@ public class PersonalDataConv
 		//Throws number format exception if String of char is passed 
 		int StringToInt3 = Integer.parseInt(s2);
 		System.out.println("String to int if String contains alphabets :"+StringToInt3);
+		//String to Long
+		long Stringtolong = Long.parseLong(s3);
+		System.out.println("String to long :"+Stringtolong);
+		
 		
 	}
 	
