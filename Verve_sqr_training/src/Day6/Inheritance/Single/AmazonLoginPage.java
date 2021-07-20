@@ -10,7 +10,10 @@ public class AmazonLoginPage
 	public String strSignInButton = "Sign-In";
 	public String strMobile;
 	public String strLaptop;
-	
+	public int intMobileBill;
+	public int intLaptopBill;
+	public int intTotalBill=0;
+	public String strLogout;
 	public void loginPage(String strEmail,String strPassword)
 	{
 		System.out.println("\tAmazon.in\n");
