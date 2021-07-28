@@ -96,7 +96,7 @@ public class FacebookUtilities
 	}
 	public String getRandomYear(int strLength) 
 	{
-		String strYear = "123456789";
+		String strYear = "1234567890";
 		String randomYear = "";
 		for (int i = 0; i < strLength; i++) 
 		{

@@ -57,6 +57,5 @@ public class WithoutExceptionHandling
 		System.out.println("String is:"+str);
 		int intStringToNo = Integer.parseInt(str);
 	}
-	
-	
+		
 }
