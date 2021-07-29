@@ -72,4 +72,23 @@ public class FBCreateAccountFlow
 		 
 		 
 	 }
+	 
+	 public void verifyLoginSuccessfullyOrNot()
+	 {
+		 String strActualValue = objFBHomePage.getLogoutText();
+		 testData = objFBHashTable.createAccountTestData().get("Logout Text Visible");
+		 if(!testData.equals(""))
+		 {
+			if(testData.equals(strActualValue))
+			{
+				System.out.println("User has Logged in successfully....");
+			}
+			else
+			{
+				System.out.println("User has not Logged in !!!!!!");
+
+			}
+		 }
+		 
+	 }
 }

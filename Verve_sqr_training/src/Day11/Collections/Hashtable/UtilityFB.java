@@ -96,19 +96,6 @@ public class UtilityFB
 				
 			}
 			 
-			int intStr = Integer.parseInt(randomYear);
-			if(intStr< 1800)
-			{
-				String inttostring = String.valueOf(intStr);
-				for (int i = 0; i < 4; i++) 
-				{
-					int randomindex = (int) (Math.random()*strYear.length());
-					randomYear =  randomYear + strYear.substring(randomindex, randomindex+1);
-					
-				}
-				
-			}
-			
 			return randomYear;
 		}
 		

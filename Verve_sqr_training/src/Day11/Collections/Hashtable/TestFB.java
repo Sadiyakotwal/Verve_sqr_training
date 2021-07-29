@@ -7,6 +7,7 @@ public class TestFB {
 		
 		FBCreateAccountFlow objFBCreateAccountFlow = new FBCreateAccountFlow();
 		objFBCreateAccountFlow.accountCreation();
+		objFBCreateAccountFlow.verifyLoginSuccessfullyOrNot();
 
 	}
 
